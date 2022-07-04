@@ -42,7 +42,7 @@ public class Tablecollection {
 		 {
 		String celltext = eachcell.getText();
 			 
-		System.out.print(celltext+"       |         "+"\t");
+		System.out.print(celltext+"       |        "+"\t");
 		}
 
 		 System.out.println();
