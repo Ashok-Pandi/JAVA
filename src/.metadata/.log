@@ -1,0 +1,2367 @@
+!SESSION 2022-02-11 16:27:49.888 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180301-0715
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ant.launching 4 0 2022-02-11 16:28:45.327
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.ant.launching [92]
+  Unresolved requirement: Require-Bundle: org.apache.ant; bundle-version="1.9.4"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.ant.ui 4 0 2022-02-11 16:28:45.369
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.ant.ui [93]
+  Unresolved requirement: Require-Bundle: org.apache.ant; bundle-version="1.9.4"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.datatools.connectivity.oda.template.ui 4 0 2022-02-11 16:28:45.371
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.datatools.connectivity.oda.template.ui [148]
+  Unresolved requirement: Require-Bundle: org.eclipse.pde.ui; bundle-version="[3.10.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.pde.ui; bundle-version="3.10.52.v20171228-1230"; singleton:="true"
+       org.eclipse.pde.ui [709]
+         Unresolved requirement: Require-Bundle: org.eclipse.pde.build; bundle-version="[3.2.0,4.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.pde.core; bundle-version="[3.6.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.pde.core; bundle-version="3.11.101.v20171228-1230"; singleton:="true"
+              org.eclipse.pde.core [698]
+                Unresolved requirement: Require-Bundle: org.eclipse.pde.build; bundle-version="[3.2.0,4.1.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.egit.mylyn.ui 4 0 2022-02-11 16:28:45.535
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.egit.mylyn.ui [295]
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.resources.ui; bundle-version="[3.0.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.resources.ui; bundle-version="3.23.0.v20170411-2108"; singleton:="true"
+       org.eclipse.mylyn.resources.ui [630]
+         Unresolved requirement: Require-Bundle: org.apache.ant; bundle-version="1.7.0"
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.team.ui; bundle-version="[3.0.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.team.ui; bundle-version="3.23.0.v20170411-2108"; singleton:="true"
+       org.eclipse.mylyn.team.ui [637]
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.resources.ui; bundle-version="[3.8.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.resources.ui; bundle-version="3.23.0.v20170411-2108"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.emf.ant 4 0 2022-02-11 16:28:45.537
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.emf.ant [298]
+  Unresolved requirement: Require-Bundle: org.apache.ant; bundle-version="[1.7.0,2.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jdt.apt.core 4 0 2022-02-11 16:28:45.790
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.apt.core [398]
+  Unresolved requirement: Require-Bundle: org.apache.ant; bundle-version="1.6.5"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 4 0 2022-02-11 16:28:45.801
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.apt.pluggable.core [399]
+  Unresolved requirement: Require-Bundle: org.eclipse.jdt.apt.core
+    -> Bundle-SymbolicName: org.eclipse.jdt.apt.core; bundle-version="3.5.50.v20170920-0950"; singleton:="true"
+       org.eclipse.jdt.apt.core [398]
+         Unresolved requirement: Require-Bundle: org.apache.ant; bundle-version="1.6.5"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jdt.apt.ui 4 0 2022-02-11 16:28:45.811
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.apt.ui [400]
+  Unresolved requirement: Require-Bundle: org.eclipse.jdt.apt.core; bundle-version="[3.2.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jdt.apt.core; bundle-version="3.5.50.v20170920-0950"; singleton:="true"
+       org.eclipse.jdt.apt.core [398]
+         Unresolved requirement: Require-Bundle: org.apache.ant; bundle-version="1.6.5"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jst.j2ee.ejb.annotations.xdoclet 4 0 2022-02-11 16:28:45.863
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.j2ee.ejb.annotations.xdoclet [486]
+  Unresolved requirement: Require-Bundle: org.eclipse.ant.ui; bundle-version="[3.2.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.ant.ui; bundle-version="3.7.0.v20170412-1054"; singleton:="true"
+       org.eclipse.ant.ui [93]
+         Unresolved requirement: Require-Bundle: org.apache.ant; bundle-version="1.9.4"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jst.j2ee.webservice 4 0 2022-02-11 16:28:45.876
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.j2ee.webservice [493]
+  Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.parser; bundle-version="[1.0.100,1.1.0)"
+    -> Bundle-SymbolicName: org.eclipse.wst.ws.parser; bundle-version="1.0.600.v201505131719"
+       org.eclipse.wst.ws.parser [929]
+         Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+           -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+              org.apache.wsil4j [83]
+                Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+                     org.apache.axis [39]
+                       Unresolved requirement: Require-Bundle: javax.xml.soap; bundle-version="[1.2.0,2.0.0)"
+                Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,3.0.0)"
+                  -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+                     org.uddi4j [1005]
+                       Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                         -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+         Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,2.1.0)"
+           -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jst.j2ee.webservice.ui 4 0 2022-02-11 16:28:45.880
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.j2ee.webservice.ui [494]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.webservice; bundle-version="[1.1.0,1.2.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.j2ee.webservice; bundle-version="1.1.500.v201701262104"; singleton:="true"
+       org.eclipse.jst.j2ee.webservice [493]
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.parser; bundle-version="[1.0.100,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws.parser; bundle-version="1.0.600.v201505131719"
+              org.eclipse.wst.ws.parser [929]
+                Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+                  -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+                     org.apache.wsil4j [83]
+                       Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                         -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+                            org.apache.axis [39]
+                              Unresolved requirement: Require-Bundle: javax.xml.soap; bundle-version="[1.2.0,2.0.0)"
+                       Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,3.0.0)"
+                         -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+                            org.uddi4j [1005]
+                              Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                                -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+                Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,2.1.0)"
+                  -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jst.j2ee.xdoclet.runtime 4 0 2022-02-11 16:28:45.896
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.j2ee.xdoclet.runtime [495]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.ejb.annotations.xdoclet; bundle-version="[1.1.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.j2ee.ejb.annotations.xdoclet; bundle-version="1.2.300.v201701262105"; singleton:="true"
+       org.eclipse.jst.j2ee.ejb.annotations.xdoclet [486]
+         Unresolved requirement: Require-Bundle: org.eclipse.ant.ui; bundle-version="[3.2.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.ant.ui; bundle-version="3.7.0.v20170412-1054"; singleton:="true"
+              org.eclipse.ant.ui [93]
+                Unresolved requirement: Require-Bundle: org.apache.ant; bundle-version="1.9.4"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jst.server.generic.core 4 0 2022-02-11 16:28:45.901
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.server.generic.core [519]
+  Unresolved requirement: Require-Bundle: org.apache.ant; bundle-version="[1.6.5,2.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.ant.ui; bundle-version="[3.4.0,4.0.0)"; resolution:="optional"
+    -> Bundle-SymbolicName: org.eclipse.ant.ui; bundle-version="3.7.0.v20170412-1054"; singleton:="true"
+       org.eclipse.ant.ui [93]
+         Unresolved requirement: Require-Bundle: org.apache.ant; bundle-version="1.9.4"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jst.server.generic.jonas 4 0 2022-02-11 16:28:45.955
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.server.generic.jonas [520]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.server.generic.ui; bundle-version="[1.0.102,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.server.generic.ui; bundle-version="1.0.600.v201709251835"; singleton:="true"
+       org.eclipse.jst.server.generic.ui [521]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.server.generic.core; bundle-version="[1.0.1,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.server.generic.core; bundle-version="1.0.900.v201606081655"; singleton:="true"
+              org.eclipse.jst.server.generic.core [519]
+                Unresolved requirement: Require-Bundle: org.apache.ant; bundle-version="[1.6.5,2.0.0)"
+                Unresolved requirement: Require-Bundle: org.eclipse.ant.ui; bundle-version="[3.4.0,4.0.0)"; resolution:="optional"
+                  -> Bundle-SymbolicName: org.eclipse.ant.ui; bundle-version="3.7.0.v20170412-1054"; singleton:="true"
+                     org.eclipse.ant.ui [93]
+                       Unresolved requirement: Require-Bundle: org.apache.ant; bundle-version="1.9.4"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.server.generic.core; bundle-version="[1.0.102,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.server.generic.core; bundle-version="1.0.900.v201606081655"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jst.server.generic.ui 4 0 2022-02-11 16:28:45.958
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.server.generic.ui [521]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.server.generic.core; bundle-version="[1.0.1,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.server.generic.core; bundle-version="1.0.900.v201606081655"; singleton:="true"
+       org.eclipse.jst.server.generic.core [519]
+         Unresolved requirement: Require-Bundle: org.apache.ant; bundle-version="[1.6.5,2.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.ant.ui; bundle-version="[3.4.0,4.0.0)"; resolution:="optional"
+           -> Bundle-SymbolicName: org.eclipse.ant.ui; bundle-version="3.7.0.v20170412-1054"; singleton:="true"
+              org.eclipse.ant.ui [93]
+                Unresolved requirement: Require-Bundle: org.apache.ant; bundle-version="1.9.4"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jst.ws 4 0 2022-02-11 16:28:45.962
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.ws [531]
+  Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+    -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+       org.eclipse.wst.ws [926]
+         Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+           -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+              org.apache.wsil4j [83]
+                Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+                     org.apache.axis [39]
+                       Unresolved requirement: Require-Bundle: javax.xml.soap; bundle-version="[1.2.0,2.0.0)"
+                Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,3.0.0)"
+                  -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+                     org.uddi4j [1005]
+                       Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                         -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.parser; bundle-version="[1.0.100,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws.parser; bundle-version="1.0.600.v201505131719"
+              org.eclipse.wst.ws.parser [929]
+                Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+                  -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+                Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,2.1.0)"
+                  -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jst.ws.annotations.core 4 0 2022-02-11 16:28:45.965
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.ws.annotations.core [532]
+  Unresolved requirement: Require-Bundle: org.eclipse.jdt.apt.core; bundle-version="[3.3.100,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jdt.apt.core; bundle-version="3.5.50.v20170920-0950"; singleton:="true"
+       org.eclipse.jdt.apt.core [398]
+         Unresolved requirement: Require-Bundle: org.apache.ant; bundle-version="1.6.5"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jst.ws.axis.consumption.core 4 0 2022-02-11 16:28:45.969
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.ws.axis.consumption.core [533]
+  Unresolved requirement: Require-Bundle: org.apache.ant; bundle-version="[1.6.5,2.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jst.ws.axis.consumption.ui 4 0 2022-02-11 16:28:45.978
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.ws.axis.consumption.ui [534]
+  Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.parser; bundle-version="[1.0.100,1.1.0)"
+    -> Bundle-SymbolicName: org.eclipse.wst.ws.parser; bundle-version="1.0.600.v201505131719"
+       org.eclipse.wst.ws.parser [929]
+         Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+           -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+              org.apache.wsil4j [83]
+                Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+                     org.apache.axis [39]
+                       Unresolved requirement: Require-Bundle: javax.xml.soap; bundle-version="[1.2.0,2.0.0)"
+                Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,3.0.0)"
+                  -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+                     org.uddi4j [1005]
+                       Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                         -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+         Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,2.1.0)"
+           -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.consumption.ui; bundle-version="[1.1.0,1.2.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws.consumption.ui; bundle-version="1.1.850.v201701262139"; singleton:="true"
+       org.eclipse.jst.ws.consumption.ui [547]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.consumption; bundle-version="[1.0.101,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.ws.consumption; bundle-version="1.0.1000.v201710021559"; singleton:="true"
+              org.eclipse.jst.ws.consumption [545]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.0.101,1.1.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.0.800.v201701262139"
+                     org.eclipse.jst.ws [531]
+                       Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+                         -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+                            org.eclipse.wst.ws [926]
+                              Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+                                -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+                              Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.parser; bundle-version="[1.0.100,1.1.0)"
+                                -> Bundle-SymbolicName: org.eclipse.wst.ws.parser; bundle-version="1.0.600.v201505131719"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.0.101,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.0.800.v201701262139"
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.explorer; bundle-version="[1.0.101,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws.explorer; bundle-version="1.0.950.v201710032159"; singleton:="true"
+              org.eclipse.wst.ws.explorer [927]
+                Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.parser; bundle-version="[1.0.100,1.1.0)"
+                  -> Bundle-SymbolicName: org.eclipse.wst.ws.parser; bundle-version="1.0.600.v201505131719"
+                Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+                  -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+                Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+                  -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.ui; bundle-version="[1.0.100,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.ws.ui; bundle-version="1.0.600.v201701262139"; singleton:="true"
+              org.eclipse.jst.ws.ui [571]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.0.101,1.1.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.0.800.v201701262139"
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.parser; bundle-version="[1.0.100,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws.parser; bundle-version="1.0.600.v201505131719"
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.0.101,1.1.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.0.800.v201701262139"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jst.ws.axis.creation.ui 4 0 2022-02-11 16:28:45.987
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.ws.axis.creation.ui [535]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.0.101,1.1.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.0.800.v201701262139"
+       org.eclipse.jst.ws [531]
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+              org.eclipse.wst.ws [926]
+                Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+                  -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+                     org.apache.wsil4j [83]
+                       Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                         -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+                            org.apache.axis [39]
+                              Unresolved requirement: Require-Bundle: javax.xml.soap; bundle-version="[1.2.0,2.0.0)"
+                       Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,3.0.0)"
+                         -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+                            org.uddi4j [1005]
+                              Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                                -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+                Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.parser; bundle-version="[1.0.100,1.1.0)"
+                  -> Bundle-SymbolicName: org.eclipse.wst.ws.parser; bundle-version="1.0.600.v201505131719"
+                     org.eclipse.wst.ws.parser [929]
+                       Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+                         -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+                       Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,2.1.0)"
+                         -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+  Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.parser; bundle-version="[1.0.100,1.1.0)"
+    -> Bundle-SymbolicName: org.eclipse.wst.ws.parser; bundle-version="1.0.600.v201505131719"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.consumption.ui; bundle-version="[1.1.300,1.2.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws.consumption.ui; bundle-version="1.1.850.v201701262139"; singleton:="true"
+       org.eclipse.jst.ws.consumption.ui [547]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.consumption; bundle-version="[1.0.101,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.ws.consumption; bundle-version="1.0.1000.v201710021559"; singleton:="true"
+              org.eclipse.jst.ws.consumption [545]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.0.101,1.1.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.0.800.v201701262139"
+                Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+                  -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.0.101,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.0.800.v201701262139"
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.explorer; bundle-version="[1.0.101,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws.explorer; bundle-version="1.0.950.v201710032159"; singleton:="true"
+              org.eclipse.wst.ws.explorer [927]
+                Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+                  -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.ui; bundle-version="[1.0.100,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.ws.ui; bundle-version="1.0.600.v201701262139"; singleton:="true"
+              org.eclipse.jst.ws.ui [571]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.0.101,1.1.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.0.800.v201701262139"
+                Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.explorer; bundle-version="[1.0.204,1.1.0)"
+                  -> Bundle-SymbolicName: org.eclipse.wst.ws.explorer; bundle-version="1.0.950.v201710032159"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.parser; bundle-version="[1.0.100,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws.parser; bundle-version="1.0.600.v201505131719"
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.consumption; bundle-version="[1.0.101,1.1.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws.consumption; bundle-version="1.0.1000.v201710021559"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jst.ws.axis2.consumption.core 4 0 2022-02-11 16:28:45.998
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.ws.axis2.consumption.core [538]
+  Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.parser
+    -> Bundle-SymbolicName: org.eclipse.wst.ws.parser; bundle-version="1.0.600.v201505131719"
+       org.eclipse.wst.ws.parser [929]
+         Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+           -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+              org.apache.wsil4j [83]
+                Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+                     org.apache.axis [39]
+                       Unresolved requirement: Require-Bundle: javax.xml.soap; bundle-version="[1.2.0,2.0.0)"
+                Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,3.0.0)"
+                  -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+                     org.uddi4j [1005]
+                       Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                         -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+         Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,2.1.0)"
+           -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.consumption
+    -> Bundle-SymbolicName: org.eclipse.jst.ws.consumption; bundle-version="1.0.1000.v201710021559"; singleton:="true"
+       org.eclipse.jst.ws.consumption [545]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.0.101,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.0.800.v201701262139"
+              org.eclipse.jst.ws [531]
+                Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+                  -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+                     org.eclipse.wst.ws [926]
+                       Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+                         -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+                       Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.parser; bundle-version="[1.0.100,1.1.0)"
+                         -> Bundle-SymbolicName: org.eclipse.wst.ws.parser; bundle-version="1.0.600.v201505131719"
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.wst.ws
+    -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.ui
+    -> Bundle-SymbolicName: org.eclipse.jst.ws.ui; bundle-version="1.0.600.v201701262139"; singleton:="true"
+       org.eclipse.jst.ws.ui [571]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.0.101,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.0.800.v201701262139"
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.explorer; bundle-version="[1.0.204,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws.explorer; bundle-version="1.0.950.v201710032159"; singleton:="true"
+              org.eclipse.wst.ws.explorer [927]
+                Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+                  -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.consumption.ui
+    -> Bundle-SymbolicName: org.eclipse.jst.ws.consumption.ui; bundle-version="1.1.850.v201701262139"; singleton:="true"
+       org.eclipse.jst.ws.consumption.ui [547]
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.explorer; bundle-version="[1.0.101,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws.explorer; bundle-version="1.0.950.v201710032159"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.parser; bundle-version="[1.0.100,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws.parser; bundle-version="1.0.600.v201505131719"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws
+    -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.0.800.v201701262139"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jst.ws.axis2.consumption.ui 4 0 2022-02-11 16:28:46.006
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.ws.axis2.consumption.ui [539]
+  Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.parser
+    -> Bundle-SymbolicName: org.eclipse.wst.ws.parser; bundle-version="1.0.600.v201505131719"
+       org.eclipse.wst.ws.parser [929]
+         Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+           -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+              org.apache.wsil4j [83]
+                Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+                     org.apache.axis [39]
+                       Unresolved requirement: Require-Bundle: javax.xml.soap; bundle-version="[1.2.0,2.0.0)"
+                Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,3.0.0)"
+                  -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+                     org.uddi4j [1005]
+                       Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                         -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+         Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,2.1.0)"
+           -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws
+    -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.0.800.v201701262139"
+       org.eclipse.jst.ws [531]
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+              org.eclipse.wst.ws [926]
+                Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+                  -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+                Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.parser; bundle-version="[1.0.100,1.1.0)"
+                  -> Bundle-SymbolicName: org.eclipse.wst.ws.parser; bundle-version="1.0.600.v201505131719"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.consumption.ui
+    -> Bundle-SymbolicName: org.eclipse.jst.ws.consumption.ui; bundle-version="1.1.850.v201701262139"; singleton:="true"
+       org.eclipse.jst.ws.consumption.ui [547]
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.explorer; bundle-version="[1.0.101,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws.explorer; bundle-version="1.0.950.v201710032159"; singleton:="true"
+              org.eclipse.wst.ws.explorer [927]
+                Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+                  -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.parser; bundle-version="[1.0.100,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws.parser; bundle-version="1.0.600.v201505131719"
+  Unresolved requirement: Require-Bundle: org.eclipse.wst.ws
+    -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.consumption
+    -> Bundle-SymbolicName: org.eclipse.jst.ws.consumption; bundle-version="1.0.1000.v201710021559"; singleton:="true"
+       org.eclipse.jst.ws.consumption [545]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.0.101,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.0.800.v201701262139"
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.ui
+    -> Bundle-SymbolicName: org.eclipse.jst.ws.ui; bundle-version="1.0.600.v201701262139"; singleton:="true"
+       org.eclipse.jst.ws.ui [571]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.0.101,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.0.800.v201701262139"
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.explorer; bundle-version="[1.0.204,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws.explorer; bundle-version="1.0.950.v201710032159"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jst.ws.axis2.core 4 0 2022-02-11 16:28:46.015
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.ws.axis2.core [540]
+  Unresolved requirement: Require-Bundle: org.apache.ant
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jst.ws.axis2.creation.core 4 0 2022-02-11 16:28:46.033
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.ws.axis2.creation.core [541]
+  Unresolved requirement: Require-Bundle: org.apache.ant
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws
+    -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.0.800.v201701262139"
+       org.eclipse.jst.ws [531]
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+              org.eclipse.wst.ws [926]
+                Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+                  -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+                     org.apache.wsil4j [83]
+                       Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                         -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+                            org.apache.axis [39]
+                              Unresolved requirement: Require-Bundle: javax.xml.soap; bundle-version="[1.2.0,2.0.0)"
+                       Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,3.0.0)"
+                         -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+                            org.uddi4j [1005]
+                              Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                                -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+                Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.parser; bundle-version="[1.0.100,1.1.0)"
+                  -> Bundle-SymbolicName: org.eclipse.wst.ws.parser; bundle-version="1.0.600.v201505131719"
+                     org.eclipse.wst.ws.parser [929]
+                       Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+                         -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+                       Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,2.1.0)"
+                         -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.axis2.consumption.core
+    -> Bundle-SymbolicName: org.eclipse.jst.ws.axis2.consumption.core; bundle-version="1.0.200.v201309242118"
+       org.eclipse.jst.ws.axis2.consumption.core [538]
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.parser
+           -> Bundle-SymbolicName: org.eclipse.wst.ws.parser; bundle-version="1.0.600.v201505131719"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.ws
+           -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.0.800.v201701262139"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.axis2.core
+    -> Bundle-SymbolicName: org.eclipse.jst.ws.axis2.core; bundle-version="1.0.300.v201309242118"; singleton:="true"
+       org.eclipse.jst.ws.axis2.core [540]
+         Unresolved requirement: Require-Bundle: org.apache.ant
+  Unresolved requirement: Require-Bundle: org.eclipse.wst.ws
+    -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jst.ws.axis2.creation.ui 4 0 2022-02-11 16:28:46.043
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.ws.axis2.creation.ui [542]
+  Unresolved requirement: Require-Bundle: org.eclipse.wst.ws
+    -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+       org.eclipse.wst.ws [926]
+         Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+           -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+              org.apache.wsil4j [83]
+                Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+                     org.apache.axis [39]
+                       Unresolved requirement: Require-Bundle: javax.xml.soap; bundle-version="[1.2.0,2.0.0)"
+                Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,3.0.0)"
+                  -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+                     org.uddi4j [1005]
+                       Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                         -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.parser; bundle-version="[1.0.100,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws.parser; bundle-version="1.0.600.v201505131719"
+              org.eclipse.wst.ws.parser [929]
+                Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+                  -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+                Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,2.1.0)"
+                  -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.consumption.ui
+    -> Bundle-SymbolicName: org.eclipse.jst.ws.consumption.ui; bundle-version="1.1.850.v201701262139"; singleton:="true"
+       org.eclipse.jst.ws.consumption.ui [547]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.consumption; bundle-version="[1.0.101,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.ws.consumption; bundle-version="1.0.1000.v201710021559"; singleton:="true"
+              org.eclipse.jst.ws.consumption [545]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.0.101,1.1.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.0.800.v201701262139"
+                     org.eclipse.jst.ws [531]
+                       Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+                         -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.0.101,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.0.800.v201701262139"
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.explorer; bundle-version="[1.0.101,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws.explorer; bundle-version="1.0.950.v201710032159"; singleton:="true"
+              org.eclipse.wst.ws.explorer [927]
+                Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.parser; bundle-version="[1.0.100,1.1.0)"
+                  -> Bundle-SymbolicName: org.eclipse.wst.ws.parser; bundle-version="1.0.600.v201505131719"
+                Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+                  -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+                Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+                  -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.ui; bundle-version="[1.0.100,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.ws.ui; bundle-version="1.0.600.v201701262139"; singleton:="true"
+              org.eclipse.jst.ws.ui [571]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.0.101,1.1.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.0.800.v201701262139"
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.parser; bundle-version="[1.0.100,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws.parser; bundle-version="1.0.600.v201505131719"
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jst.ws.axis2.ui 4 0 2022-02-11 16:28:46.053
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.ws.axis2.ui [543]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.axis2.core
+    -> Bundle-SymbolicName: org.eclipse.jst.ws.axis2.core; bundle-version="1.0.300.v201309242118"; singleton:="true"
+       org.eclipse.jst.ws.axis2.core [540]
+         Unresolved requirement: Require-Bundle: org.apache.ant
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws
+    -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.0.800.v201701262139"
+       org.eclipse.jst.ws [531]
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+              org.eclipse.wst.ws [926]
+                Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+                  -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+                     org.apache.wsil4j [83]
+                       Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                         -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+                            org.apache.axis [39]
+                              Unresolved requirement: Require-Bundle: javax.xml.soap; bundle-version="[1.2.0,2.0.0)"
+                       Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,3.0.0)"
+                         -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+                            org.uddi4j [1005]
+                              Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                                -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+                Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.parser; bundle-version="[1.0.100,1.1.0)"
+                  -> Bundle-SymbolicName: org.eclipse.wst.ws.parser; bundle-version="1.0.600.v201505131719"
+                     org.eclipse.wst.ws.parser [929]
+                       Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+                         -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+                       Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,2.1.0)"
+                         -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.ui
+    -> Bundle-SymbolicName: org.eclipse.jst.ws.ui; bundle-version="1.0.600.v201701262139"; singleton:="true"
+       org.eclipse.jst.ws.ui [571]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.0.101,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.0.800.v201701262139"
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.explorer; bundle-version="[1.0.204,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws.explorer; bundle-version="1.0.950.v201710032159"; singleton:="true"
+              org.eclipse.wst.ws.explorer [927]
+                Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+                  -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jst.ws.consumption 4 0 2022-02-11 16:28:46.063
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.ws.consumption [545]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.0.101,1.1.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.0.800.v201701262139"
+       org.eclipse.jst.ws [531]
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+              org.eclipse.wst.ws [926]
+                Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+                  -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+                     org.apache.wsil4j [83]
+                       Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                         -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+                            org.apache.axis [39]
+                              Unresolved requirement: Require-Bundle: javax.xml.soap; bundle-version="[1.2.0,2.0.0)"
+                       Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,3.0.0)"
+                         -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+                            org.uddi4j [1005]
+                              Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                                -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+                Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.parser; bundle-version="[1.0.100,1.1.0)"
+                  -> Bundle-SymbolicName: org.eclipse.wst.ws.parser; bundle-version="1.0.600.v201505131719"
+                     org.eclipse.wst.ws.parser [929]
+                       Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+                         -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+                       Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,2.1.0)"
+                         -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+  Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+    -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jst.ws.consumption.ui 4 0 2022-02-11 16:28:46.075
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.ws.consumption.ui [547]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.consumption; bundle-version="[1.0.101,1.1.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws.consumption; bundle-version="1.0.1000.v201710021559"; singleton:="true"
+       org.eclipse.jst.ws.consumption [545]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.0.101,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.0.800.v201701262139"
+              org.eclipse.jst.ws [531]
+                Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+                  -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+                     org.eclipse.wst.ws [926]
+                       Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+                         -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+                            org.apache.wsil4j [83]
+                              Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                                -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+                                   org.apache.axis [39]
+                                     Unresolved requirement: Require-Bundle: javax.xml.soap; bundle-version="[1.2.0,2.0.0)"
+                              Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,3.0.0)"
+                                -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+                                   org.uddi4j [1005]
+                                     Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                                       -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+                       Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.parser; bundle-version="[1.0.100,1.1.0)"
+                         -> Bundle-SymbolicName: org.eclipse.wst.ws.parser; bundle-version="1.0.600.v201505131719"
+                            org.eclipse.wst.ws.parser [929]
+                              Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+                                -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+                              Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,2.1.0)"
+                                -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.0.101,1.1.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.0.800.v201701262139"
+  Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.explorer; bundle-version="[1.0.101,1.1.0)"
+    -> Bundle-SymbolicName: org.eclipse.wst.ws.explorer; bundle-version="1.0.950.v201710032159"; singleton:="true"
+       org.eclipse.wst.ws.explorer [927]
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.parser; bundle-version="[1.0.100,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws.parser; bundle-version="1.0.600.v201505131719"
+         Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+           -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.ui; bundle-version="[1.0.100,1.1.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws.ui; bundle-version="1.0.600.v201701262139"; singleton:="true"
+       org.eclipse.jst.ws.ui [571]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.0.101,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.0.800.v201701262139"
+  Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.parser; bundle-version="[1.0.100,1.1.0)"
+    -> Bundle-SymbolicName: org.eclipse.wst.ws.parser; bundle-version="1.0.600.v201505131719"
+  Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+    -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jst.ws.creation.ui 4 0 2022-02-11 16:28:46.083
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.ws.creation.ui [550]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.consumption; bundle-version="[1.0.101,1.1.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws.consumption; bundle-version="1.0.1000.v201710021559"; singleton:="true"
+       org.eclipse.jst.ws.consumption [545]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.0.101,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.0.800.v201701262139"
+              org.eclipse.jst.ws [531]
+                Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+                  -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+                     org.eclipse.wst.ws [926]
+                       Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+                         -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+                            org.apache.wsil4j [83]
+                              Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                                -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+                                   org.apache.axis [39]
+                                     Unresolved requirement: Require-Bundle: javax.xml.soap; bundle-version="[1.2.0,2.0.0)"
+                              Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,3.0.0)"
+                                -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+                                   org.uddi4j [1005]
+                                     Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                                       -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+                       Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.parser; bundle-version="[1.0.100,1.1.0)"
+                         -> Bundle-SymbolicName: org.eclipse.wst.ws.parser; bundle-version="1.0.600.v201505131719"
+                            org.eclipse.wst.ws.parser [929]
+                              Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+                                -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+                              Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,2.1.0)"
+                                -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+  Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.ui; bundle-version="[1.1.0,1.2.0)"
+    -> Bundle-SymbolicName: org.eclipse.wst.ws.ui; bundle-version="1.1.300.v201503231435"; singleton:="true"
+       org.eclipse.wst.ws.ui [932]
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.ui; bundle-version="[1.0.100,1.1.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws.ui; bundle-version="1.0.600.v201701262139"; singleton:="true"
+       org.eclipse.jst.ws.ui [571]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.0.101,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.0.800.v201701262139"
+  Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.parser; bundle-version="[1.0.100,1.1.0)"
+    -> Bundle-SymbolicName: org.eclipse.wst.ws.parser; bundle-version="1.0.600.v201505131719"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.consumption.ui; bundle-version="[1.1.0,1.2.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws.consumption.ui; bundle-version="1.1.850.v201701262139"; singleton:="true"
+       org.eclipse.jst.ws.consumption.ui [547]
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.explorer; bundle-version="[1.0.101,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws.explorer; bundle-version="1.0.950.v201710032159"; singleton:="true"
+              org.eclipse.wst.ws.explorer [927]
+                Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+                  -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.parser; bundle-version="[1.0.100,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws.parser; bundle-version="1.0.600.v201505131719"
+  Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+    -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.explorer; bundle-version="[1.0.101,1.1.0)"
+    -> Bundle-SymbolicName: org.eclipse.wst.ws.explorer; bundle-version="1.0.950.v201710032159"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.0.101,1.1.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.0.800.v201701262139"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jst.ws.cxf.consumption.core 4 0 2022-02-11 16:28:46.095
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.ws.cxf.consumption.core [551]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.0.304,1.1.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.0.800.v201701262139"
+       org.eclipse.jst.ws [531]
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+              org.eclipse.wst.ws [926]
+                Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+                  -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+                     org.apache.wsil4j [83]
+                       Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                         -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+                            org.apache.axis [39]
+                              Unresolved requirement: Require-Bundle: javax.xml.soap; bundle-version="[1.2.0,2.0.0)"
+                       Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,3.0.0)"
+                         -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+                            org.uddi4j [1005]
+                              Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                                -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+                Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.parser; bundle-version="[1.0.100,1.1.0)"
+                  -> Bundle-SymbolicName: org.eclipse.wst.ws.parser; bundle-version="1.0.600.v201505131719"
+                     org.eclipse.wst.ws.parser [929]
+                       Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+                         -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+                       Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,2.1.0)"
+                         -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.jaxws.core; bundle-version="[1.0.0,1.1.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws.jaxws.core; bundle-version="1.0.500.v201701262158"; singleton:="true"
+       org.eclipse.jst.ws.jaxws.core [563]
+         Unresolved requirement: Require-Bundle: javax.xml.soap; bundle-version="[1.2.0,1.3.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.apt.core; bundle-version="[3.3.100,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jdt.apt.core; bundle-version="3.5.50.v20170920-0950"; singleton:="true"
+              org.eclipse.jdt.apt.core [398]
+                Unresolved requirement: Require-Bundle: org.apache.ant; bundle-version="1.6.5"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.annotations.core; bundle-version="[1.0.0,1.3.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.ws.annotations.core; bundle-version="1.2.200.v201311102023"; singleton:="true"
+              org.eclipse.jst.ws.annotations.core [532]
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.apt.core; bundle-version="[3.3.100,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jdt.apt.core; bundle-version="3.5.50.v20170920-0950"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.1.0,1.2.0)"
+    -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.cxf.core; bundle-version="0.4.3"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws.cxf.core; bundle-version="1.1.300.v201701262158"; singleton:="true"
+       org.eclipse.jst.ws.cxf.core [553]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.0.304,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.0.800.v201701262139"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jst.ws.cxf.consumption.ui 4 0 2022-02-11 16:28:46.105
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.ws.cxf.consumption.ui [552]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.consumption.ui; bundle-version="[1.1.0,1.2.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws.consumption.ui; bundle-version="1.1.850.v201701262139"; singleton:="true"
+       org.eclipse.jst.ws.consumption.ui [547]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.consumption; bundle-version="[1.0.101,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.ws.consumption; bundle-version="1.0.1000.v201710021559"; singleton:="true"
+              org.eclipse.jst.ws.consumption [545]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.0.101,1.1.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.0.800.v201701262139"
+                     org.eclipse.jst.ws [531]
+                       Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+                         -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+                            org.eclipse.wst.ws [926]
+                              Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+                                -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+                                   org.apache.wsil4j [83]
+                                     Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                                       -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+                                          org.apache.axis [39]
+                                            Unresolved requirement: Require-Bundle: javax.xml.soap; bundle-version="[1.2.0,2.0.0)"
+                                     Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,3.0.0)"
+                                       -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+                                          org.uddi4j [1005]
+                                            Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                                              -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+                              Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.parser; bundle-version="[1.0.100,1.1.0)"
+                                -> Bundle-SymbolicName: org.eclipse.wst.ws.parser; bundle-version="1.0.600.v201505131719"
+                                   org.eclipse.wst.ws.parser [929]
+                                     Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+                                       -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+                                     Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,2.1.0)"
+                                       -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.0.101,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.0.800.v201701262139"
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.explorer; bundle-version="[1.0.101,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws.explorer; bundle-version="1.0.950.v201710032159"; singleton:="true"
+              org.eclipse.wst.ws.explorer [927]
+                Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.parser; bundle-version="[1.0.100,1.1.0)"
+                  -> Bundle-SymbolicName: org.eclipse.wst.ws.parser; bundle-version="1.0.600.v201505131719"
+                Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+                  -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+                Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+                  -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.ui; bundle-version="[1.0.100,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.ws.ui; bundle-version="1.0.600.v201701262139"; singleton:="true"
+              org.eclipse.jst.ws.ui [571]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.0.101,1.1.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.0.800.v201701262139"
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.parser; bundle-version="[1.0.100,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws.parser; bundle-version="1.0.600.v201505131719"
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.0.304,1.1.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.0.800.v201701262139"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jst.ws.cxf.core 4 0 2022-02-11 16:28:46.114
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.ws.cxf.core [553]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.0.304,1.1.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.0.800.v201701262139"
+       org.eclipse.jst.ws [531]
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+              org.eclipse.wst.ws [926]
+                Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+                  -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+                     org.apache.wsil4j [83]
+                       Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                         -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+                            org.apache.axis [39]
+                              Unresolved requirement: Require-Bundle: javax.xml.soap; bundle-version="[1.2.0,2.0.0)"
+                       Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,3.0.0)"
+                         -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+                            org.uddi4j [1005]
+                              Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                                -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+                Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.parser; bundle-version="[1.0.100,1.1.0)"
+                  -> Bundle-SymbolicName: org.eclipse.wst.ws.parser; bundle-version="1.0.600.v201505131719"
+                     org.eclipse.wst.ws.parser [929]
+                       Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+                         -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+                       Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,2.1.0)"
+                         -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.annotations.core; bundle-version="[1.0.0,1.3.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws.annotations.core; bundle-version="1.2.200.v201311102023"; singleton:="true"
+       org.eclipse.jst.ws.annotations.core [532]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.apt.core; bundle-version="[3.3.100,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jdt.apt.core; bundle-version="3.5.50.v20170920-0950"; singleton:="true"
+              org.eclipse.jdt.apt.core [398]
+                Unresolved requirement: Require-Bundle: org.apache.ant; bundle-version="1.6.5"
+  Unresolved requirement: Require-Bundle: org.eclipse.jdt.apt.core; bundle-version="[3.3.100,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jdt.apt.core; bundle-version="3.5.50.v20170920-0950"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.jaxws.ui; bundle-version="[1.0.0,1.1.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws.jaxws.ui; bundle-version="1.0.401.v201504291921"; singleton:="true"
+       org.eclipse.jst.ws.jaxws.ui [568]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.jaxws.core; bundle-version="[1.0.0,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.ws.jaxws.core; bundle-version="1.0.500.v201701262158"; singleton:="true"
+              org.eclipse.jst.ws.jaxws.core [563]
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.apt.core; bundle-version="[3.3.100,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jdt.apt.core; bundle-version="3.5.50.v20170920-0950"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.jaxws.core; bundle-version="[1.0.0,1.1.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws.jaxws.core; bundle-version="1.0.500.v201701262158"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jst.ws.cxf.creation.core 4 0 2022-02-11 16:28:46.124
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.ws.cxf.creation.core [554]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.cxf.core; bundle-version="[1.0.0,1.2.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws.cxf.core; bundle-version="1.1.300.v201701262158"; singleton:="true"
+       org.eclipse.jst.ws.cxf.core [553]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.0.304,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.0.800.v201701262139"
+              org.eclipse.jst.ws [531]
+                Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+                  -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+                     org.eclipse.wst.ws [926]
+                       Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+                         -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+                            org.apache.wsil4j [83]
+                              Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                                -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+                                   org.apache.axis [39]
+                                     Unresolved requirement: Require-Bundle: javax.xml.soap; bundle-version="[1.2.0,2.0.0)"
+                              Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,3.0.0)"
+                                -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+                                   org.uddi4j [1005]
+                                     Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                                       -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+                       Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.parser; bundle-version="[1.0.100,1.1.0)"
+                         -> Bundle-SymbolicName: org.eclipse.wst.ws.parser; bundle-version="1.0.600.v201505131719"
+                            org.eclipse.wst.ws.parser [929]
+                              Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+                                -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+                              Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,2.1.0)"
+                                -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.annotations.core; bundle-version="[1.0.0,1.3.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws.annotations.core; bundle-version="1.2.200.v201311102023"; singleton:="true"
+       org.eclipse.jst.ws.annotations.core [532]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.apt.core; bundle-version="[3.3.100,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jdt.apt.core; bundle-version="3.5.50.v20170920-0950"; singleton:="true"
+              org.eclipse.jdt.apt.core [398]
+                Unresolved requirement: Require-Bundle: org.apache.ant; bundle-version="1.6.5"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.jaxws.core; bundle-version="[1.0.0,1.1.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws.jaxws.core; bundle-version="1.0.500.v201701262158"; singleton:="true"
+       org.eclipse.jst.ws.jaxws.core [563]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.apt.core; bundle-version="[3.3.100,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jdt.apt.core; bundle-version="3.5.50.v20170920-0950"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.jdt.apt.core; bundle-version="[3.3.100,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jdt.apt.core; bundle-version="3.5.50.v20170920-0950"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.1.0,1.2.0)"
+    -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.0.304,1.1.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.0.800.v201701262139"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jst.ws.cxf.creation.ui 4 0 2022-02-11 16:28:46.135
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.ws.cxf.creation.ui [555]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.consumption.ui; bundle-version="[1.1.0,1.2.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws.consumption.ui; bundle-version="1.1.850.v201701262139"; singleton:="true"
+       org.eclipse.jst.ws.consumption.ui [547]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.consumption; bundle-version="[1.0.101,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.ws.consumption; bundle-version="1.0.1000.v201710021559"; singleton:="true"
+              org.eclipse.jst.ws.consumption [545]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.0.101,1.1.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.0.800.v201701262139"
+                     org.eclipse.jst.ws [531]
+                       Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+                         -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+                            org.eclipse.wst.ws [926]
+                              Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+                                -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+                                   org.apache.wsil4j [83]
+                                     Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                                       -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+                                          org.apache.axis [39]
+                                            Unresolved requirement: Require-Bundle: javax.xml.soap; bundle-version="[1.2.0,2.0.0)"
+                                     Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,3.0.0)"
+                                       -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+                                          org.uddi4j [1005]
+                                            Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                                              -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+                              Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.parser; bundle-version="[1.0.100,1.1.0)"
+                                -> Bundle-SymbolicName: org.eclipse.wst.ws.parser; bundle-version="1.0.600.v201505131719"
+                                   org.eclipse.wst.ws.parser [929]
+                                     Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+                                       -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+                                     Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,2.1.0)"
+                                       -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.0.101,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.0.800.v201701262139"
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.explorer; bundle-version="[1.0.101,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws.explorer; bundle-version="1.0.950.v201710032159"; singleton:="true"
+              org.eclipse.wst.ws.explorer [927]
+                Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.parser; bundle-version="[1.0.100,1.1.0)"
+                  -> Bundle-SymbolicName: org.eclipse.wst.ws.parser; bundle-version="1.0.600.v201505131719"
+                Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+                  -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+                Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+                  -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.ui; bundle-version="[1.0.100,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.ws.ui; bundle-version="1.0.600.v201701262139"; singleton:="true"
+              org.eclipse.jst.ws.ui [571]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.0.101,1.1.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.0.800.v201701262139"
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.parser; bundle-version="[1.0.100,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws.parser; bundle-version="1.0.600.v201505131719"
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.cxf.core; bundle-version="[1.0.0,1.2.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws.cxf.core; bundle-version="1.1.300.v201701262158"; singleton:="true"
+       org.eclipse.jst.ws.cxf.core [553]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.0.304,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.0.800.v201701262139"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.cxf.creation.core; bundle-version="[1.0.0,1.1.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws.cxf.creation.core; bundle-version="1.0.500.v201701262158"
+       org.eclipse.jst.ws.cxf.creation.core [554]
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.1.0,1.2.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.1.0,1.2.0)"
+    -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jst.ws.cxf.ui 4 0 2022-02-11 16:28:46.144
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.ws.cxf.ui [557]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.jaxws.core; bundle-version="[1.0.0,1.1.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws.jaxws.core; bundle-version="1.0.500.v201701262158"; singleton:="true"
+       org.eclipse.jst.ws.jaxws.core [563]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.apt.core; bundle-version="[3.3.100,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jdt.apt.core; bundle-version="3.5.50.v20170920-0950"; singleton:="true"
+              org.eclipse.jdt.apt.core [398]
+                Unresolved requirement: Require-Bundle: org.apache.ant; bundle-version="1.6.5"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.cxf.core; bundle-version="[1.0.0,1.2.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws.cxf.core; bundle-version="1.1.300.v201701262158"; singleton:="true"
+       org.eclipse.jst.ws.cxf.core [553]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.0.304,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.0.800.v201701262139"
+              org.eclipse.jst.ws [531]
+                Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+                  -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+                     org.eclipse.wst.ws [926]
+                       Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+                         -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+                            org.apache.wsil4j [83]
+                              Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                                -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+                                   org.apache.axis [39]
+                                     Unresolved requirement: Require-Bundle: javax.xml.soap; bundle-version="[1.2.0,2.0.0)"
+                              Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,3.0.0)"
+                                -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+                                   org.uddi4j [1005]
+                                     Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                                       -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+                       Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.parser; bundle-version="[1.0.100,1.1.0)"
+                         -> Bundle-SymbolicName: org.eclipse.wst.ws.parser; bundle-version="1.0.600.v201505131719"
+                            org.eclipse.wst.ws.parser [929]
+                              Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+                                -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+                              Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,2.1.0)"
+                                -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.annotations.core; bundle-version="[1.0.0,1.3.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.ws.annotations.core; bundle-version="1.2.200.v201311102023"; singleton:="true"
+              org.eclipse.jst.ws.annotations.core [532]
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.apt.core; bundle-version="[3.3.100,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jdt.apt.core; bundle-version="3.5.50.v20170920-0950"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.apt.core; bundle-version="[3.3.100,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jdt.apt.core; bundle-version="3.5.50.v20170920-0950"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.jaxws.ui; bundle-version="[1.0.0,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.ws.jaxws.ui; bundle-version="1.0.401.v201504291921"; singleton:="true"
+              org.eclipse.jst.ws.jaxws.ui [568]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.jaxws.core; bundle-version="[1.0.0,1.1.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.ws.jaxws.core; bundle-version="1.0.500.v201701262158"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.jaxws.core; bundle-version="[1.0.0,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.ws.jaxws.core; bundle-version="1.0.500.v201701262158"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jst.ws.jaxb.core 4 0 2022-02-11 16:28:46.149
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.ws.jaxb.core [560]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.annotations.core; bundle-version="1.1.0"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws.annotations.core; bundle-version="1.2.200.v201311102023"; singleton:="true"
+       org.eclipse.jst.ws.annotations.core [532]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.apt.core; bundle-version="[3.3.100,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jdt.apt.core; bundle-version="3.5.50.v20170920-0950"; singleton:="true"
+              org.eclipse.jdt.apt.core [398]
+                Unresolved requirement: Require-Bundle: org.apache.ant; bundle-version="1.6.5"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jst.ws.jaxws.core 4 0 2022-02-11 16:28:46.160
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.ws.jaxws.core [563]
+  Unresolved requirement: Require-Bundle: javax.xml.soap; bundle-version="[1.2.0,1.3.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.jdt.apt.core; bundle-version="[3.3.100,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jdt.apt.core; bundle-version="3.5.50.v20170920-0950"; singleton:="true"
+       org.eclipse.jdt.apt.core [398]
+         Unresolved requirement: Require-Bundle: org.apache.ant; bundle-version="1.6.5"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.annotations.core; bundle-version="[1.0.0,1.3.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws.annotations.core; bundle-version="1.2.200.v201311102023"; singleton:="true"
+       org.eclipse.jst.ws.annotations.core [532]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.apt.core; bundle-version="[3.3.100,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jdt.apt.core; bundle-version="3.5.50.v20170920-0950"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jst.ws.jaxws.dom.integration 4 0 2022-02-11 16:28:46.165
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.ws.jaxws.dom.integration [565]
+  Unresolved requirement: Require-Bundle: org.eclipse.jdt.apt.core
+    -> Bundle-SymbolicName: org.eclipse.jdt.apt.core; bundle-version="3.5.50.v20170920-0950"; singleton:="true"
+       org.eclipse.jdt.apt.core [398]
+         Unresolved requirement: Require-Bundle: org.apache.ant; bundle-version="1.6.5"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jst.ws.jaxws.ui 4 0 2022-02-11 16:28:46.180
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.ws.jaxws.ui [568]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.annotations.core; bundle-version="[1.0.0,1.3.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws.annotations.core; bundle-version="1.2.200.v201311102023"; singleton:="true"
+       org.eclipse.jst.ws.annotations.core [532]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.apt.core; bundle-version="[3.3.100,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jdt.apt.core; bundle-version="3.5.50.v20170920-0950"; singleton:="true"
+              org.eclipse.jdt.apt.core [398]
+                Unresolved requirement: Require-Bundle: org.apache.ant; bundle-version="1.6.5"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.jaxws.core; bundle-version="[1.0.0,1.1.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws.jaxws.core; bundle-version="1.0.500.v201701262158"; singleton:="true"
+       org.eclipse.jst.ws.jaxws.core [563]
+         Unresolved requirement: Require-Bundle: javax.xml.soap; bundle-version="[1.2.0,1.3.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.apt.core; bundle-version="[3.3.100,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jdt.apt.core; bundle-version="3.5.50.v20170920-0950"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.annotations.core; bundle-version="[1.0.0,1.3.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.ws.annotations.core; bundle-version="1.2.200.v201311102023"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jst.ws.uddiregistry 4 0 2022-02-11 16:28:46.185
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.ws.uddiregistry [570]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.ui; bundle-version="[1.0.100,1.1.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws.ui; bundle-version="1.0.600.v201701262139"; singleton:="true"
+       org.eclipse.jst.ws.ui [571]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.0.101,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.0.800.v201701262139"
+              org.eclipse.jst.ws [531]
+                Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+                  -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+                     org.eclipse.wst.ws [926]
+                       Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+                         -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+                            org.apache.wsil4j [83]
+                              Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                                -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+                                   org.apache.axis [39]
+                                     Unresolved requirement: Require-Bundle: javax.xml.soap; bundle-version="[1.2.0,2.0.0)"
+                              Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,3.0.0)"
+                                -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+                                   org.uddi4j [1005]
+                                     Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                                       -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+                       Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.parser; bundle-version="[1.0.100,1.1.0)"
+                         -> Bundle-SymbolicName: org.eclipse.wst.ws.parser; bundle-version="1.0.600.v201505131719"
+                            org.eclipse.wst.ws.parser [929]
+                              Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+                                -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+                              Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,2.1.0)"
+                                -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.explorer; bundle-version="[1.0.204,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws.explorer; bundle-version="1.0.950.v201710032159"; singleton:="true"
+              org.eclipse.wst.ws.explorer [927]
+                Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+                  -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jst.ws.ui 4 0 2022-02-11 16:28:46.196
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.ws.ui [571]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.0.101,1.1.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.0.800.v201701262139"
+       org.eclipse.jst.ws [531]
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+              org.eclipse.wst.ws [926]
+                Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+                  -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+                     org.apache.wsil4j [83]
+                       Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                         -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+                            org.apache.axis [39]
+                              Unresolved requirement: Require-Bundle: javax.xml.soap; bundle-version="[1.2.0,2.0.0)"
+                       Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,3.0.0)"
+                         -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+                            org.uddi4j [1005]
+                              Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                                -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+                Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.parser; bundle-version="[1.0.100,1.1.0)"
+                  -> Bundle-SymbolicName: org.eclipse.wst.ws.parser; bundle-version="1.0.600.v201505131719"
+                     org.eclipse.wst.ws.parser [929]
+                       Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+                         -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+                       Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,2.1.0)"
+                         -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+  Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+    -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.explorer; bundle-version="[1.0.204,1.1.0)"
+    -> Bundle-SymbolicName: org.eclipse.wst.ws.explorer; bundle-version="1.0.950.v201710032159"; singleton:="true"
+       org.eclipse.wst.ws.explorer [927]
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.m2e.wtp 4 0 2022-02-11 16:28:46.235
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.m2e.wtp [596]
+  Unresolved requirement: Require-Bundle: org.eclipse.m2e.wtp.overlay; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.m2e.wtp.overlay; bundle-version="1.3.3.20170823-1905"; singleton:="true"
+       org.eclipse.m2e.wtp.overlay [600]
+         Unresolved requirement: Require-Bundle: org.apache.ant
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.m2e.wtp.jaxrs 4 0 2022-02-11 16:28:46.245
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.m2e.wtp.jaxrs [597]
+  Unresolved requirement: Require-Bundle: org.eclipse.m2e.wtp
+    -> Bundle-SymbolicName: org.eclipse.m2e.wtp; bundle-version="1.3.3.20170823-1905"; singleton:="true"
+       org.eclipse.m2e.wtp [596]
+         Unresolved requirement: Require-Bundle: org.eclipse.m2e.wtp.overlay; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.m2e.wtp.overlay; bundle-version="1.3.3.20170823-1905"; singleton:="true"
+              org.eclipse.m2e.wtp.overlay [600]
+                Unresolved requirement: Require-Bundle: org.apache.ant
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.m2e.wtp.jpa 4 0 2022-02-11 16:28:46.251
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.m2e.wtp.jpa [598]
+  Unresolved requirement: Require-Bundle: org.eclipse.m2e.wtp; bundle-version="1.2.0"
+    -> Bundle-SymbolicName: org.eclipse.m2e.wtp; bundle-version="1.3.3.20170823-1905"; singleton:="true"
+       org.eclipse.m2e.wtp [596]
+         Unresolved requirement: Require-Bundle: org.eclipse.m2e.wtp.overlay; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.m2e.wtp.overlay; bundle-version="1.3.3.20170823-1905"; singleton:="true"
+              org.eclipse.m2e.wtp.overlay [600]
+                Unresolved requirement: Require-Bundle: org.apache.ant
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.m2e.wtp.jsf 4 0 2022-02-11 16:28:46.265
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.m2e.wtp.jsf [599]
+  Unresolved requirement: Require-Bundle: org.eclipse.m2e.wtp
+    -> Bundle-SymbolicName: org.eclipse.m2e.wtp; bundle-version="1.3.3.20170823-1905"; singleton:="true"
+       org.eclipse.m2e.wtp [596]
+         Unresolved requirement: Require-Bundle: org.eclipse.m2e.wtp.overlay; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.m2e.wtp.overlay; bundle-version="1.3.3.20170823-1905"; singleton:="true"
+              org.eclipse.m2e.wtp.overlay [600]
+                Unresolved requirement: Require-Bundle: org.apache.ant
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.m2e.wtp.overlay 4 0 2022-02-11 16:28:46.267
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.m2e.wtp.overlay [600]
+  Unresolved requirement: Require-Bundle: org.apache.ant
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.m2e.wtp.overlay.ui 4 0 2022-02-11 16:28:46.275
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.m2e.wtp.overlay.ui [601]
+  Unresolved requirement: Require-Bundle: org.eclipse.m2e.wtp.overlay
+    -> Bundle-SymbolicName: org.eclipse.m2e.wtp.overlay; bundle-version="1.3.3.20170823-1905"; singleton:="true"
+       org.eclipse.m2e.wtp.overlay [600]
+         Unresolved requirement: Require-Bundle: org.apache.ant
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.mylyn.debug.ui 4 0 2022-02-11 16:28:46.294
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.debug.ui [620]
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.ide.ui; bundle-version="[3.8.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.ide.ui; bundle-version="3.23.0.v20170411-2108"; singleton:="true"
+       org.eclipse.mylyn.ide.ui [625]
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.resources.ui; bundle-version="[3.8.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.resources.ui; bundle-version="3.23.0.v20170411-2108"; singleton:="true"
+              org.eclipse.mylyn.resources.ui [630]
+                Unresolved requirement: Require-Bundle: org.apache.ant; bundle-version="1.7.0"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.mylyn.ide.ant 4 0 2022-02-11 16:28:46.305
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.ide.ant [624]
+  Unresolved requirement: Require-Bundle: org.eclipse.ant.ui
+    -> Bundle-SymbolicName: org.eclipse.ant.ui; bundle-version="3.7.0.v20170412-1054"; singleton:="true"
+       org.eclipse.ant.ui [93]
+         Unresolved requirement: Require-Bundle: org.apache.ant; bundle-version="1.9.4"
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.ide.ui; bundle-version="[3.8.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.ide.ui; bundle-version="3.23.0.v20170411-2108"; singleton:="true"
+       org.eclipse.mylyn.ide.ui [625]
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.resources.ui; bundle-version="[3.8.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.resources.ui; bundle-version="3.23.0.v20170411-2108"; singleton:="true"
+              org.eclipse.mylyn.resources.ui [630]
+                Unresolved requirement: Require-Bundle: org.apache.ant; bundle-version="1.7.0"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.mylyn.ide.ui 4 0 2022-02-11 16:28:46.315
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.ide.ui [625]
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.resources.ui; bundle-version="[3.8.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.resources.ui; bundle-version="3.23.0.v20170411-2108"; singleton:="true"
+       org.eclipse.mylyn.resources.ui [630]
+         Unresolved requirement: Require-Bundle: org.apache.ant; bundle-version="1.7.0"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.mylyn.java.ui 4 0 2022-02-11 16:28:46.321
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.java.ui [627]
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.resources.ui; bundle-version="[3.8.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.resources.ui; bundle-version="3.23.0.v20170411-2108"; singleton:="true"
+       org.eclipse.mylyn.resources.ui [630]
+         Unresolved requirement: Require-Bundle: org.apache.ant; bundle-version="1.7.0"
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.ide.ui; bundle-version="[3.8.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.ide.ui; bundle-version="3.23.0.v20170411-2108"; singleton:="true"
+       org.eclipse.mylyn.ide.ui [625]
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.resources.ui; bundle-version="[3.8.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.resources.ui; bundle-version="3.23.0.v20170411-2108"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.mylyn.resources.ui 4 0 2022-02-11 16:28:46.331
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.resources.ui [630]
+  Unresolved requirement: Require-Bundle: org.apache.ant; bundle-version="1.7.0"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.mylyn.team.ui 4 0 2022-02-11 16:28:46.339
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.team.ui [637]
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.resources.ui; bundle-version="[3.8.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.resources.ui; bundle-version="3.23.0.v20170411-2108"; singleton:="true"
+       org.eclipse.mylyn.resources.ui [630]
+         Unresolved requirement: Require-Bundle: org.apache.ant; bundle-version="1.7.0"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.pde.api.tools 4 0 2022-02-11 16:28:46.356
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.pde.api.tools [695]
+  Unresolved requirement: Require-Bundle: org.eclipse.pde.core; bundle-version="[3.3.102,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.pde.core; bundle-version="3.11.101.v20171228-1230"; singleton:="true"
+       org.eclipse.pde.core [698]
+         Unresolved requirement: Require-Bundle: org.eclipse.pde.build; bundle-version="[3.2.0,4.1.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.pde.api.tools.ui 4 0 2022-02-11 16:28:46.367
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.pde.api.tools.ui [697]
+  Unresolved requirement: Require-Bundle: org.eclipse.pde.ui; bundle-version="[3.4.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.pde.ui; bundle-version="3.10.52.v20171228-1230"; singleton:="true"
+       org.eclipse.pde.ui [709]
+         Unresolved requirement: Require-Bundle: org.eclipse.pde.build; bundle-version="[3.2.0,4.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.pde.core; bundle-version="[3.6.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.pde.core; bundle-version="3.11.101.v20171228-1230"; singleton:="true"
+              org.eclipse.pde.core [698]
+                Unresolved requirement: Require-Bundle: org.eclipse.pde.build; bundle-version="[3.2.0,4.1.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.pde.api.tools; bundle-version="1.0.600"
+    -> Bundle-SymbolicName: org.eclipse.pde.api.tools; bundle-version="1.1.102.v20180119-0818"; singleton:="true"
+       org.eclipse.pde.api.tools [695]
+         Unresolved requirement: Require-Bundle: org.eclipse.pde.core; bundle-version="[3.3.102,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.pde.core; bundle-version="3.11.101.v20171228-1230"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.pde.core 4 0 2022-02-11 16:28:46.373
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.pde.core [698]
+  Unresolved requirement: Require-Bundle: org.eclipse.pde.build; bundle-version="[3.2.0,4.1.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.pde.ds.annotations 4 0 2022-02-11 16:28:46.382
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.pde.ds.annotations [700]
+  Unresolved requirement: Require-Bundle: org.eclipse.pde.ds.core; bundle-version="[1.1.0,1.2.0)"
+    -> Bundle-SymbolicName: org.eclipse.pde.ds.core; bundle-version="1.1.100.v20170515-0910"; singleton:="true"
+       org.eclipse.pde.ds.core [701]
+         Unresolved requirement: Require-Bundle: org.eclipse.pde.core; bundle-version="[3.3.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.pde.core; bundle-version="3.11.101.v20171228-1230"; singleton:="true"
+              org.eclipse.pde.core [698]
+                Unresolved requirement: Require-Bundle: org.eclipse.pde.build; bundle-version="[3.2.0,4.1.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.pde.ui; bundle-version="[3.8.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.pde.ui; bundle-version="3.10.52.v20171228-1230"; singleton:="true"
+       org.eclipse.pde.ui [709]
+         Unresolved requirement: Require-Bundle: org.eclipse.pde.build; bundle-version="[3.2.0,4.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.pde.core; bundle-version="[3.6.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.pde.core; bundle-version="3.11.101.v20171228-1230"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.pde.ds.core 4 0 2022-02-11 16:28:46.400
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.pde.ds.core [701]
+  Unresolved requirement: Require-Bundle: org.eclipse.pde.core; bundle-version="[3.3.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.pde.core; bundle-version="3.11.101.v20171228-1230"; singleton:="true"
+       org.eclipse.pde.core [698]
+         Unresolved requirement: Require-Bundle: org.eclipse.pde.build; bundle-version="[3.2.0,4.1.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.pde.ds.ui 4 0 2022-02-11 16:28:46.409
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.pde.ds.ui [702]
+  Unresolved requirement: Require-Bundle: org.eclipse.pde.ds.core; bundle-version="[1.0.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.pde.ds.core; bundle-version="1.1.100.v20170515-0910"; singleton:="true"
+       org.eclipse.pde.ds.core [701]
+         Unresolved requirement: Require-Bundle: org.eclipse.pde.core; bundle-version="[3.3.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.pde.core; bundle-version="3.11.101.v20171228-1230"; singleton:="true"
+              org.eclipse.pde.core [698]
+                Unresolved requirement: Require-Bundle: org.eclipse.pde.build; bundle-version="[3.2.0,4.1.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.pde.ui; bundle-version="[3.3.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.pde.ui; bundle-version="3.10.52.v20171228-1230"; singleton:="true"
+       org.eclipse.pde.ui [709]
+         Unresolved requirement: Require-Bundle: org.eclipse.pde.core; bundle-version="[3.6.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.pde.core; bundle-version="3.11.101.v20171228-1230"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.pde.genericeditor.extension 4 0 2022-02-11 16:28:46.418
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.pde.genericeditor.extension [703]
+  Unresolved requirement: Require-Bundle: org.eclipse.pde.ui; bundle-version="[3.10.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.pde.ui; bundle-version="3.10.52.v20171228-1230"; singleton:="true"
+       org.eclipse.pde.ui [709]
+         Unresolved requirement: Require-Bundle: org.eclipse.pde.build; bundle-version="[3.2.0,4.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.pde.core; bundle-version="[3.6.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.pde.core; bundle-version="3.11.101.v20171228-1230"; singleton:="true"
+              org.eclipse.pde.core [698]
+                Unresolved requirement: Require-Bundle: org.eclipse.pde.build; bundle-version="[3.2.0,4.1.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.pde.launching 4 0 2022-02-11 16:28:46.427
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.pde.launching [705]
+  Unresolved requirement: Require-Bundle: org.eclipse.pde.build; bundle-version="[3.2.0,4.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.pde.ua.core 4 0 2022-02-11 16:28:46.434
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.pde.ua.core [707]
+  Unresolved requirement: Require-Bundle: org.eclipse.pde.core; bundle-version="[3.3.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.pde.core; bundle-version="3.11.101.v20171228-1230"; singleton:="true"
+       org.eclipse.pde.core [698]
+         Unresolved requirement: Require-Bundle: org.eclipse.pde.build; bundle-version="[3.2.0,4.1.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.pde.ua.ui 4 0 2022-02-11 16:28:46.443
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.pde.ua.ui [708]
+  Unresolved requirement: Require-Bundle: org.eclipse.pde.ui; bundle-version="[3.4.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.pde.ui; bundle-version="3.10.52.v20171228-1230"; singleton:="true"
+       org.eclipse.pde.ui [709]
+         Unresolved requirement: Require-Bundle: org.eclipse.pde.build; bundle-version="[3.2.0,4.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.pde.core; bundle-version="[3.6.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.pde.core; bundle-version="3.11.101.v20171228-1230"; singleton:="true"
+              org.eclipse.pde.core [698]
+                Unresolved requirement: Require-Bundle: org.eclipse.pde.build; bundle-version="[3.2.0,4.1.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.pde.ua.core; bundle-version="[1.0.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.pde.ua.core; bundle-version="1.1.0.v20170201-2036"; singleton:="true"
+       org.eclipse.pde.ua.core [707]
+         Unresolved requirement: Require-Bundle: org.eclipse.pde.core; bundle-version="[3.3.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.pde.core; bundle-version="3.11.101.v20171228-1230"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.pde.ui 4 0 2022-02-11 16:28:46.451
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.pde.ui [709]
+  Unresolved requirement: Require-Bundle: org.eclipse.pde.build; bundle-version="[3.2.0,4.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.pde.core; bundle-version="[3.6.0,4.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.pde.core; bundle-version="3.11.101.v20171228-1230"; singleton:="true"
+       org.eclipse.pde.core [698]
+         Unresolved requirement: Require-Bundle: org.eclipse.pde.build; bundle-version="[3.2.0,4.1.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.wst.ws 4 0 2022-02-11 16:29:02.037
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.wst.ws [926]
+  Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+    -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+       org.apache.wsil4j [83]
+         Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+           -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+              org.apache.axis [39]
+                Unresolved requirement: Require-Bundle: javax.xml.soap; bundle-version="[1.2.0,2.0.0)"
+         Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,3.0.0)"
+           -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+              org.uddi4j [1005]
+                Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+  Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.parser; bundle-version="[1.0.100,1.1.0)"
+    -> Bundle-SymbolicName: org.eclipse.wst.ws.parser; bundle-version="1.0.600.v201505131719"
+       org.eclipse.wst.ws.parser [929]
+         Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+           -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+         Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,2.1.0)"
+           -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.wst.ws.explorer 4 0 2022-02-11 16:29:02.047
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.wst.ws.explorer [927]
+  Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.parser; bundle-version="[1.0.100,1.1.0)"
+    -> Bundle-SymbolicName: org.eclipse.wst.ws.parser; bundle-version="1.0.600.v201505131719"
+       org.eclipse.wst.ws.parser [929]
+         Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+           -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+              org.apache.wsil4j [83]
+                Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+                     org.apache.axis [39]
+                       Unresolved requirement: Require-Bundle: javax.xml.soap; bundle-version="[1.2.0,2.0.0)"
+                Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,3.0.0)"
+                  -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+                     org.uddi4j [1005]
+                       Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                         -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+         Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,2.1.0)"
+           -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+  Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+    -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+  Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+    -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+       org.eclipse.wst.ws [926]
+         Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+           -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.parser; bundle-version="[1.0.100,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws.parser; bundle-version="1.0.600.v201505131719"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.wst.ws.parser 4 0 2022-02-11 16:29:02.051
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.wst.ws.parser [929]
+  Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+    -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+       org.apache.wsil4j [83]
+         Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+           -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+              org.apache.axis [39]
+                Unresolved requirement: Require-Bundle: javax.xml.soap; bundle-version="[1.2.0,2.0.0)"
+         Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,3.0.0)"
+           -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+              org.uddi4j [1005]
+                Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+  Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,2.1.0)"
+    -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.wst.ws.ui 4 0 2022-02-11 16:29:02.065
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.wst.ws.ui [932]
+  Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+    -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+       org.eclipse.wst.ws [926]
+         Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+           -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+              org.apache.wsil4j [83]
+                Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+                     org.apache.axis [39]
+                       Unresolved requirement: Require-Bundle: javax.xml.soap; bundle-version="[1.2.0,2.0.0)"
+                Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,3.0.0)"
+                  -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+                     org.uddi4j [1005]
+                       Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                         -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.parser; bundle-version="[1.0.100,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws.parser; bundle-version="1.0.600.v201505131719"
+              org.eclipse.wst.ws.parser [929]
+                Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+                  -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+                Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,2.1.0)"
+                  -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.wst.wsdl.ui 4 0 2022-02-11 16:29:02.078
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.wst.wsdl.ui [934]
+  Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.101,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+       org.eclipse.wst.ws [926]
+         Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+           -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+              org.apache.wsil4j [83]
+                Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+                     org.apache.axis [39]
+                       Unresolved requirement: Require-Bundle: javax.xml.soap; bundle-version="[1.2.0,2.0.0)"
+                Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,3.0.0)"
+                  -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+                     org.uddi4j [1005]
+                       Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                         -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.parser; bundle-version="[1.0.100,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws.parser; bundle-version="1.0.600.v201505131719"
+              org.eclipse.wst.ws.parser [929]
+                Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+                  -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+                Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,2.1.0)"
+                  -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+  Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.ui; bundle-version="[1.0.101,1.2.0)"
+    -> Bundle-SymbolicName: org.eclipse.wst.ws.ui; bundle-version="1.1.300.v201503231435"; singleton:="true"
+       org.eclipse.wst.ws.ui [932]
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,1.2.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.wst.wsi 4 0 2022-02-11 16:29:02.105
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.wst.wsi [937]
+  Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+       org.eclipse.wst.ws [926]
+         Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+           -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+              org.apache.wsil4j [83]
+                Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+                     org.apache.axis [39]
+                       Unresolved requirement: Require-Bundle: javax.xml.soap; bundle-version="[1.2.0,2.0.0)"
+                Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,3.0.0)"
+                  -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+                     org.uddi4j [1005]
+                       Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                         -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.parser; bundle-version="[1.0.100,1.1.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws.parser; bundle-version="1.0.600.v201505131719"
+              org.eclipse.wst.ws.parser [929]
+                Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+                  -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+                Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,2.1.0)"
+                  -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+  Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,2.1.0)"
+    -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+  Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+    -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.wst.wsi.ui 4 0 2022-02-11 16:29:02.112
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.wst.wsi.ui [938]
+  Unresolved requirement: Require-Bundle: org.eclipse.wst.wsi; bundle-version="[1.0.101,1.1.0)"
+    -> Bundle-SymbolicName: org.eclipse.wst.wsi; bundle-version="1.0.600.v201505131719"; singleton:="true"
+       org.eclipse.wst.wsi [937]
+         Unresolved requirement: Require-Bundle: org.eclipse.wst.ws; bundle-version="[1.0.100,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.wst.ws; bundle-version="1.1.400.v201503231435"; singleton:="true"
+              org.eclipse.wst.ws [926]
+                Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+                  -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+                     org.apache.wsil4j [83]
+                       Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                         -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+                            org.apache.axis [39]
+                              Unresolved requirement: Require-Bundle: javax.xml.soap; bundle-version="[1.2.0,2.0.0)"
+                       Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,3.0.0)"
+                         -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+                            org.uddi4j [1005]
+                              Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+                                -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+                Unresolved requirement: Require-Bundle: org.eclipse.wst.ws.parser; bundle-version="[1.0.100,1.1.0)"
+                  -> Bundle-SymbolicName: org.eclipse.wst.ws.parser; bundle-version="1.0.600.v201505131719"
+                     org.eclipse.wst.ws.parser [929]
+                       Unresolved requirement: Require-Bundle: org.apache.wsil4j; bundle-version="[1.0.0,1.1.0)"
+                         -> Bundle-SymbolicName: org.apache.wsil4j; bundle-version="1.0.0.v200901211807"
+                       Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,2.1.0)"
+                         -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+         Unresolved requirement: Require-Bundle: org.uddi4j; bundle-version="[2.0.4,2.1.0)"
+           -> Bundle-SymbolicName: org.uddi4j; bundle-version="2.0.5.v200805270300"
+         Unresolved requirement: Require-Bundle: org.apache.axis; bundle-version="[1.3.0,2.0.0)"
+           -> Bundle-SymbolicName: org.apache.axis; bundle-version="1.4.0.v201411182030"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-02-11 16:31:59.125
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\welcome'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2022-02-11 16:32:03.988
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: Received fatal alert: handshake_failure. ; version: 2.0.7.v20170906-1327
+!STACK 0
+javax.net.ssl.SSLHandshakeException: Received fatal alert: handshake_failure
+	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
+	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.recvAlert(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:394)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:353)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.http.client.fluent.Request.internalExecute(Request.java:173)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:262)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.request(IO.java:170)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:64)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$DelegateService$1.run(AbstractIdleService.java:62)
+	at com.google.common.util.concurrent.Callables$4.run(Callables.java:122)
+	at java.lang.Thread.run(Unknown Source)
